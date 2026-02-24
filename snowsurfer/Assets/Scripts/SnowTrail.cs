@@ -9,7 +9,6 @@ public class SnowTrail : MonoBehaviour
     private void Start()
     {
         _layerIndex = LayerMask.NameToLayer("Floor");
-        print("layer = " + _layerIndex);
     }
 
     private void OnCollisionExit2D(Collision2D other)
